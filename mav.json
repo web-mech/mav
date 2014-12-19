@@ -1,0 +1,13 @@
+{
+  //stores migration information
+  "history_collection": "mav.migrations",
+  "files": "./migrations",
+  "migrate": {
+    "to": "000"
+  },
+  "env": {
+    "local": "mongodb://localhost:27017/local",
+    "staging": "mongodb://staging.com:27017/staging",
+    "prod": "mongodb://prod.com:27017/prod"
+  }
+}
